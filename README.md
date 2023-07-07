@@ -1,6 +1,6 @@
 # JavaScript-Repo-1
 ![image](https://github.com/Hameedullah-Asadi3300/JavaScript-Repo-1/assets/123219655/c99d203a-3eaf-40de-b189-a11664466bcf)
-1.        Comments in JS
+1.        Comments
 2.        Strings
 3.        Basic math
 
