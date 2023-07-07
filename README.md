@@ -3,6 +3,8 @@
 1.        Comments
 2.        Strings
 3.        Basic math
+4.        Variable Data Type
+
 
 
 
@@ -20,6 +22,12 @@
 
    ## Basic Math
       This projects includes all mathematical operations in JavaScript. Worked with arithmethic and assignment opertaors.
+
+   ## Variable Data Type
+      This project allowed me to work on all the methods of variable declaration and values intialization.
+      var         Is accessible anywhere in the code
+      let         Is accessible within the scope declared 
+      const       Is used for values which are fixed and not muteable
       
       
    
