@@ -11,7 +11,7 @@
 
    ##  Description
 
-   ##  Comments in JS
+   ##  Comments
       This very small project is about types of comments and how to comment code in JavaScript.
 
    ##   Strings
