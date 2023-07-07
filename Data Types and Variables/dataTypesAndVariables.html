@@ -21,8 +21,21 @@
             //  There are 3 ways we can declare variable:
             var myName = "Hameedullah Asadi";   //Used anywhere in the program
             let myProfession = "Coding";        //Used only within the scope it is declared
-            const addition = 2+2;               //Never changes
-            console.log(addition);
+            const addition = 2 + 2;               //Never changes
+            console.log(addition);  //  The result is 4
+            
+            //  Assign value with the equal sign
+            var num1;           //  Here we only declared a variable, but not assigned any value to it
+            console.log(num1);  //  The result is undefined          
+            var num2 = 10;      //  Here we declared and assigned a value
+            console.log(num2);
+            num1 = 15;          //  Here we assigned a value to num1, but did not declare here, because it has beed already declared
+            console.log(num1);  //  The result is 15
+
+            num1 = num2;        //  Here we assigned the value of num1 to num2
+            console.log(num1);  //  Here we run the value for num1 to the browser
+
+            //  Note: JavaScript is case sensitive language.
     </script>
 </body>
 </html>
