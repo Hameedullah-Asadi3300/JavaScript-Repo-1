@@ -64,14 +64,37 @@
             
             //  NOTE: It is possible for two variables with the same name, but the local variable within the function will override the global variable
 
-            
+
+            //  Return Statement returns a value back to a calling function
+                var returnValue = myFunction(10, 5);
+                function myFunction(a, b)
+                {
+                    return a * b
+                };
+                console.log(returnValue);
+                    /*  When the return statement is used, the function stops executing immediately
+                        and rest of the code is unreachable.
+                    */
+
+            //  Return statement example with string data type
+            var returnStatement = myStringFunction("Hameedullah", "Asadi", 27, "Frankfurt");   //  All values are stored inside the returnStatement variable
+            function myStringFunction(fName, lastName, age, city) {                            //  There are parameters of the values stores within the variable
+                return fName + ", " + lastName + ", " + age + ", " + city;                     //    
+            }
+            console.log(returnStatement);       //  We call the variable which stored the values in it
+
+
+                            //  Return statement with two parameters
+                        var storedValue = myJourney("Software and web Development", "JavaScript");
+                        function myJourney(profession, programmingLanguage)
+                        {
+                            return "I choose " + profession + ", and " + programmingLanguage + " as my favorite OOP.";
+                        }
+                        console.log(storedValue);
 
 
 
-
-
-        
-
+                        
 
 
 
