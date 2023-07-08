@@ -4,6 +4,7 @@
 2.        Strings
 3.        Basic math
 4.        Variable Data Type
+5.        Array
 
 
 
@@ -28,6 +29,10 @@
       var         Is accessible anywhere in the code
       let         Is accessible within the scope declared 
       const       Is used for values which are fixed and not muteable
+
+   ## Array
+      In this project I have worked on arrays in JavaScript, syntax, modifying the elements of arrays using the index, functions of arrays like:
+      push, pop, shift, and unshift, and nested array/dimensional array.
       
       
    
