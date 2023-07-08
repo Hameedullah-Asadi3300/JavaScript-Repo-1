@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //  Arrays store multiple pieces of data in one place.
+        //  It always starts with the [ and end with ] like soe: []
+        var arrayValues = ["Hameedullah", "Asadi", 27, "Developer"];    //Arrays accept any kind of data type
+        console.log(arrayValues);
+        
+        //  Nest Array/MultiDimensional Array
+        //  When an array is part of another array, it called nested array
+        var nestedArray = [
+                            ["Sulaiman", 17],   //  This is a sperate array inside an array named nestedArray
+                            ["Hisham", 4],      //  This is a sperate array inside an array named nestedArray
+                            ["Ismail", 38]      //  This is a sperate array inside an array named nestedArray
+                        ];
+                        console.log(nestedArray[0]);    //  The value of index 0 prints the first array
+                        console.log(nestedArray[1]);    //  The value of index 1 prints the second array
+                        console.log(nestedArray[2]);    //  The value of index 2 prints the third array
+        //  We can find the elementd of any array by their index
+        var indexedArray = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
+        console.log(indexedArray[0]);   //  prints the first
+        console.log(indexedArray[1]);   //  prints the two
+        console.log(indexedArray[2]);   //  prints the third
+        console.log(indexedArray[3]);   //  prints the fourth 
+        console.log(indexedArray[4]);   //  prints the fifth
+        console.log(indexedArray[5]);   //  prints the sixth
+        console.log(indexedArray[6]);   //  prints the seventh
+        console.log(indexedArray[7]);   //  prints the eigth
+        console.log(indexedArray[8]);   //  prints the nigth
+        console.log(indexedArray[9]);   //  prints the tenth
+
+
+        //  Modifying array data with index
+        //  With array unlike the string, we can modify the data using the index
+        var modifyingArrayData= ["Vancouver", "Canada", "9 million"]    //  We are foing to change the 1 index
+        modifyingArrayData[0] = "Victoria";     //  We can use ["Victoria"] as well
+        console.log(modifyingArrayData[0]);     //  The first element will be changed to Victoria
+        console.log(modifyingArrayData);
+
+
+        
+
+        
+
+
+
+
+    </script>
+</body>
+</html>
