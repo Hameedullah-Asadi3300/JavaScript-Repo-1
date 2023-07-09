@@ -5,6 +5,7 @@
 3.        Basic math
 4.        Variable Data Type
 5.        Array
+6.        Functions
 
 
 
@@ -33,6 +34,10 @@
    ## Array
       In this project I have worked on arrays in JavaScript, syntax, modifying the elements of arrays using the index, functions of arrays like:
       push, pop, shift, and unshift, and nested array/dimensional array.
+
+   ## Functions
+      In this little project, I have worked on functions in JavaScript, concatenation, conditional statement of if and else if inside the function
+      and return statement with number and string data types whithin the functions.
       
       
    
