@@ -26,6 +26,7 @@ booleanFunction();
     !=               Not equal to
     !==              Not equal value or equal type
 */
+
 //  == operator
 function equality(value)    //  The "value" is the parameter
 {
@@ -39,11 +40,44 @@ function equality(value)    //  The "value" is the parameter
 }
 console.log(equality(350)); //  350 is the argument we pass here
 
-//  === Strict Equality operator
-function strictEquality()
-{
-    if 
-}
+            //  === Strict Equality operator checks for if both are common data types
+            function stritctEquality(val)
+            {
+                if (stritctEquality === 10)
+                {
+                    console.log("This is true!")
+                }
+                console.log("This is not true");
+            }
+            stritctEquality(10);
+
+            
+            //  !=  Inequality operator
+                function inequalityOperator(inequalValue)
+                            {
+                    if (inequalValue != 35)
+                    {
+                        console.log("True!");
+                    }
+                    {
+                        console.log("Not true!");
+                    }
+                }
+inequalityOperator(27);
+                
+
+                            //  !==   Comparison With the Strict Inequality operator
+                        function strictComparison(comparisonValue)
+                            {
+                            if (comparisonValue !== 20)
+                            {
+                                console.log("This is true");
+                            }
+                            {
+                                console.log("This is not true");
+                            }
+                            }
+                        strictComparison(20);
 
 
 
