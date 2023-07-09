@@ -6,6 +6,7 @@
 4.        Variable Data Type
 5.        Array
 6.        Functions
+7.        Booleans and conditional statements
 
 
 
@@ -38,6 +39,14 @@
    ## Functions
       In this little project, I have worked on functions in JavaScript, concatenation, conditional statement of if and else if inside the function
       and return statement with number and string data types whithin the functions.
+
+   ## Booleans and conditional statements
+      In this project, I have worked on followings:
+      a. booleans
+      b. conditional statement - if, else if, and else statements and chain of if, else if, and else statements
+      c. all comparison operators like: ==, ===, >, <, >=, <=, !=, !==,
+      d. logical operators: !, &&, and ||
+      
       
       
    
