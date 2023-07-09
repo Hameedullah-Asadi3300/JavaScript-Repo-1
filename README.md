@@ -7,6 +7,7 @@
 5.        Array
 6.        Functions
 7.        Booleans and conditional statements
+8.        Switch Statements
 
 
 
@@ -46,6 +47,9 @@
       b. conditional statement - if, else if, and else statements and chain of if, else if, and else statements
       c. all comparison operators like: ==, ===, >, <, >=, <=, !=, !==,
       d. logical operators: !, &&, and ||
+
+   ## Switch Statements
+      This JavaScript project contains switch statement with default option, and multiple indetical options used as cases to return the same value.
       
       
       
