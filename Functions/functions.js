@@ -94,6 +94,16 @@
 
 
 
+
+                        //  Returning Boolean value from function
+                        //  By using this method, we will make our code shorter
+                        function booleanValue(value1, value2)
+                        {
+                            return value1 <= value2; 
+                        }
+                        console.log(booleanValue(15, 15));  //  Will return true as far as 15 is equal to 15
+
+
                         
 
 
