@@ -1,5 +1,6 @@
 # JavaScript-Repo-1
-![image](https://github.com/Hameedullah-Asadi3300/JavaScript-Repo-1/assets/123219655/c99d203a-3eaf-40de-b189-a11664466bcf)
+   ![image](https://github.com/Hameedullah-Asadi3300/JavaScript-Repo-1/assets/123219655/c68933bf-2e5e-46c3-9209-f407699ca923)
+
 1.        Comments
 2.        Strings
 3.        Basic math
@@ -7,6 +8,7 @@
 5.        Array
 6.        Functions
 7.        Booleans and conditional statements
+8.        Switch Statements
 
 
 
@@ -46,6 +48,9 @@
       b. conditional statement - if, else if, and else statements and chain of if, else if, and else statements
       c. all comparison operators like: ==, ===, >, <, >=, <=, !=, !==,
       d. logical operators: !, &&, and ||
+
+   ## Switch Statements
+      This JavaScript project contains switch statement with default option, and multiple indetical options used as cases to return the same value.
       
       
       
