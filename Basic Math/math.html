@@ -121,10 +121,28 @@
         console.log(divisionAssignment);
 
         
+            //  Generating a random decimal number - To generate aa random decimal number, use math.random function in JavaScript
+            function randomFunction()    {
+            return Math.random();
+            }
+            console.log(randomFunction());
 
 
+            //  ParseInt function   -   It is used when we want to convert string to an int for some specific purpose like calculation
+            function convertToInt(stringToInt) {        //  This function's name is "convertToInt" and have a parameter of "stringToInt"
+                console.log(parseInt(stringToInt));     //  We parse/convert the string and pass the parameter
+            }
+            convertToInt("200");                        //  Entered a string data type which is converted to number
 
 
+                //  Another parseInt Example
+            function myFunction(stringInt)   {
+                    console.log(parseInt(stringInt));
+            }            
+            myFunction("500");
+
+
+            
 
 
 
