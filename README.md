@@ -9,6 +9,9 @@
 6.        Functions
 7.        Booleans and conditional statements
 8.        Switch Statements
+9.        Objects
+10.       Loop
+
 
 
 
@@ -52,6 +55,11 @@
    ## Switch Statements
       This JavaScript project contains switch statement with default option, and multiple indetical options used as cases to return the same value.
       
+   ## Object
+      Inside this project, I have worked on how to create an object, nested objects, how to access to properties inside the object and nested objects,
+      how to remove a property from an object, and how to add property and value using both dot and bracket notations.
+
+   ## Loop
       
       
    
