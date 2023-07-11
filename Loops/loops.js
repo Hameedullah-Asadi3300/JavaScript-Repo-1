@@ -40,3 +40,38 @@ while (i >= 0)                      //  It will stop while it reaches 0 in index
     }
 
     //  Do While Loop - The do while loop first executes the condition and then checks for the condition
+            var i = 1;      //  This is intialization of our loop
+            do              //  It says go to the code inside the {}
+            {
+                console.log("Hello " + i); //  Print "Hello 1"
+                i++;                       //  Increments the value by 1
+            }
+while (i <= 3);     //  Prints at least one
+            
+
+            //  Do while loop with string data type
+            var i = 1;
+            do {
+                console.log("Hello, I am a software developer!");
+                i++;
+            }
+while (i <= 5);
+
+//  For loop - In for loop we can write all 3 conditions in just one line as follows:
+for (var i = 1; i <= 5; i++)    //  All 3 initialization, condition and incremention are in one line
+{
+    console.log("Hey, I am a web developer!");
+}
+
+
+/*  Nested For Loop  - This neted for loop will print one teim "Hi, and then five times
+"I am software developer!". again one time "Hi", and then five times "I am a software developer"
+and goes one.
+*/
+for (var i = 1; i <= 5; i++)        //This is the first loop
+{
+    console.log("Hi, ")
+    for (var j = 1; j <= 5; j++)    //This is the second loop
+        console.log("I am a software developer!");  
+}
+
