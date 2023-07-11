@@ -31,7 +31,8 @@
 
    ## Basic Math
       This projects includes all mathematical operations in JavaScript. Worked with 
-      arithmethic and assignment opertaors.
+      arithmethic and assignment opertaors. I also worked on math.random/generates
+      radnsom decimal and ParseInt/converts string to int functions.
 
    ## Variable Data Type
       This project allowed me to work on all the methods of variable declaration and values intialization.
