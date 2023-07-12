@@ -92,9 +92,6 @@
                         }
                         console.log(storedValue);
 
-
-
-
                         //  Returning Boolean value from function
                         //  By using this method, we will make our code shorter
                         function booleanValue(value1, value2)
@@ -105,10 +102,44 @@
 
 
                         
+                                //  How to assign a value inside a function to a variable?
+        function myDomain()
+        {
+            return "I am a front-end developer."    //  The data retuned here has been assigned to a variable named "statement" down here
+        }
+        let statement = myDomain(); //      //  The data inside the function is assigned to variable named statement
+        console.log(statement);             //  prints the assiged data or value to the variable statement
 
 
 
-            
+
+
+            //  How to pass a value to function and then return it?
+function myJourney(oop)
+{
+    return `I love my journey with ${oop}`  //  We useed openning backtik here, string, $, the value inside the {} and closing backtik
+}
+let oop = "JavaScript";     //  Whatever is written here, it will be concatenated with the value assigned the variable "stri". JavaScript is a value here
+let str = myJourney(oop);
+console.log(str);   //  prints "I love my journey with JavScript"
+
+
+
+
+
+
+//  We can also pass value more than one
+//  In this function we have passed 4 values, returned them and assigned them to a variable named "statement3"
+function favoriteCities(value1, value2, value3, value4) //  We have passed 4 values
+{
+    return `I love ${value1} ${value2} ${value3} ${value4}`     //  This is the syntax of how to assign multiple values
+}
+let value1 = "Califronia";                                              //Value1
+let value2 = "In United states";                                        //Value2
+let value3 = "and Doha";                                                //Value3
+let value4 = "In Qatar.";                                               //Value4
+let statement3 = favoriteCities(value1, value2, value3, value4);        //  We also passed the values here
+console.log(statement3);    //  And the variable named "statement3" will print all
 
 
 
