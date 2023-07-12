@@ -49,6 +49,7 @@
       In this little project, I have worked on functions in JavaScript, concatenation, 
       conditional statement of if and else if inside the function
       and return statement with number and string data types whithin the functions.
+      I also worked on how a function returns a value and how a function acceps a value.
 
    ## Booleans and conditional statements
       In this project, I have worked on followings:
