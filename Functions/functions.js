@@ -1,5 +1,6 @@
 
         //  Functions are blocks of re-useable code
+        //  Function is an object data type since it is not in primitive data type
         //  To write function, first write the keyword "function", then name of the function, parenthesis, then [] and code inside the curly brackets
         function reuseableFunction() {
             console.log("Hameedullah", "Asadi", 29, "Kabul", "Afghanistan");
@@ -12,7 +13,12 @@
         function reuseableFunction2() {
             console.log("Hi Manizha");
         }
-        reuseableFunction2();
+reuseableFunction2();
+        
+
+
+/*------------------------*/
+
 
 
         //  Passing Values to Function With Arguments
@@ -24,13 +30,24 @@
         person("Hameedullah", "Asadi"); //  These are the values or arguments of the parmeters inside the function above
         
 
+
+/*------------------------*/
+
+
+
         //  Second function
         function countries(Asian, European, American)
         {
         console.log("I love " + Asian + " in Asia, " + European + " in Europe, and " + American + " in Amercian contenent.");   //  concatenation 
         }
-        countries("Japan", "Norway", "Canada");
+countries("Japan", "Norway", "Canada");
         
+
+
+   /*------------------------*/
+     
+
+
 
         //  Global Scope and Function - scope in funcction means visibility of the function
         //  GLOBAL SCOPE - Is written outside the function, so is accessible and can be seen everywhere in JavaScript as follows:
@@ -43,9 +60,14 @@
                 console.log("This is not my lucky number.");
             }
                 }
-                luckyNumber();
-            
+luckyNumber();
         
+
+
+/*------------------------*/
+
+        
+
             //  Local Scope and Function - The variable that is declared within function, is called local scope variable
             //  Local scope
             function laptop()
@@ -65,6 +87,9 @@
             //  NOTE: It is possible for two variables with the same name, but the local variable within the function will override the global variable
 
 
+/*------------------------*/
+
+
             //  Return Statement returns a value back to a calling function
                 var returnValue = myFunction(10, 5);
                 function myFunction(a, b)
@@ -76,12 +101,21 @@
                         and rest of the code is unreachable.
                     */
 
+
+/*------------------------*/
+
+
+
             //  Return statement example with string data type
             var returnStatement = myStringFunction("Hameedullah", "Asadi", 27, "Frankfurt");   //  All values are stored inside the returnStatement variable
             function myStringFunction(fName, lastName, age, city) {                            //  There are parameters of the values stores within the variable
                 return fName + ", " + lastName + ", " + age + ", " + city;                     //    
             }
             console.log(returnStatement);       //  We call the variable which stored the values in it
+
+
+
+/*------------------------*/
 
 
                             //  Return statement with two parameters
@@ -101,7 +135,9 @@
                         console.log(booleanValue(15, 15));  //  Will return true as far as 15 is equal to 15
 
 
-                        
+                        /*------------------------*/
+
+
                                 //  How to assign a value inside a function to a variable?
         function myDomain()
         {
@@ -111,7 +147,7 @@
         console.log(statement);             //  prints the assiged data or value to the variable statement
 
 
-
+/*------------------------*/
 
 
             //  How to pass a value to function and then return it?
@@ -124,8 +160,7 @@ let str = myJourney(oop);
 console.log(str);   //  prints "I love my journey with JavScript"
 
 
-
-
+/*------------------------*/
 
 
 //  We can also pass value more than one
@@ -142,4 +177,39 @@ let statement3 = favoriteCities(value1, value2, value3, value4);        //  We a
 console.log(statement3);    //  And the variable named "statement3" will print all
 
 
+/*------------------------*/
 
+
+//  Function Expression - ANONYMOUS FUNCTION
+let addition = function(num1, num2)         //  This function does have name/anonymous, but is assigned to variable
+    {
+    return num1 * num2;
+    }
+let totalSum = addition(20, 30);    //  We assigned the addition variable which the function was assigned to, to the variable named totalSum
+console.log(totalSum);  //  prints 600
+
+
+/*------------------------*/
+
+
+/*  Template Literal - These are templates delimited with backtick characters, allowing for multiline srings
+It is also called:
+Template string
+String template
+Backtick syntax
+*/
+let templateLiteral =   //  Each prints on a new line
+    `I love coding in following programming language:          
+JavaScript
+and CSharp.`;
+console.log(templateLiteral);
+
+
+/*------------------------*/
+
+
+//Template literal also allows variables in string as follows:
+let firstName = "Hameedullah";
+let lastName = "Asadi";
+let result = `My full name is ${firstName} ${lastName}.`;   //We placed variabled inside the template string so whenever the value is changed, the string is also changed automatically
+console.log(result);        //  We stored all the values inside the variable named "result"
