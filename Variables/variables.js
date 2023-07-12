@@ -71,23 +71,19 @@ if use it with the data that we do not want them to be change.
 so we use the "object.freez(Object name);"
 */
 
-function myFunction()
-"use strict";   //  This is used to work in strict mode with JavaScript as it parses and handles bugs
-{
-    const myObject = {
-        Phone: 12345678
-    };
-    Object.freeze(myObject);
+// function myFunction()
+// "use strict";   //  This is used to work in strict mode with JavaScript as it parses and handles bugs
+// {
+//     const myObject = {
+//         Phone: 12345678
+//     };
+//     Object.freeze(myObject);
 
-    try {
-        myObject = 87654321
-    }
-    catch (ex) {
-        console.log( ex );
-    }
-    return myObject.Phone;
-
-}
-
-const phone = myFunction;
-
+//     try {
+//         myObject = 87654321;
+//     }
+//     catch (ex) {
+//         console.log(Message.ex);
+//     }
+// }
+// const Phone = myFunction();
