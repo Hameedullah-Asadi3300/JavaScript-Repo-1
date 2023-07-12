@@ -11,6 +11,7 @@
 8.        Switch Statements
 9.        Objects
 10.       Loop
+11.       Template Literal
 
 
 
@@ -49,7 +50,9 @@
       In this little project, I have worked on functions in JavaScript, concatenation, 
       conditional statement of if and else if inside the function
       and return statement with number and string data types whithin the functions.
-      I also worked on how a function returns a value and how a function acceps a value.
+      I also worked on how a function returns a value and how a function acceps a single and 
+      multiple values.
+      This project also includes function expression.
 
    ## Booleans and conditional statements
       In this project, I have worked on followings:
@@ -70,6 +73,10 @@
    ## Loop
       In this .js file, I have worked on all three types of loops, for, while and do while loop.
       It also includes anested loop.
+
+   ## Template Literals
+      This project actually allow me to know the basic and fundamental philosophy behind the Template literals.
+      In this project, I also worked on placing the variables inside the string using `backtick` characters.
       
       
    
