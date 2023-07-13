@@ -13,6 +13,8 @@
 10.       Loop
 11.       Template Literal
 12.       Method
+13.       this keyword
+14.       object constructor function
 
 
 
@@ -81,6 +83,14 @@
 
    ## Method
       In this project I have worked on the syntax for method within an object.
+
+   ## this Keyword
+      In this little project, I have worked on this keyword, its usage and its function with objects.
+
+   ## Object Constructor Function
+      In this project, I have worked on how to create an object constructor function to use it as a blueprint
+      for other objects.
+      
       
       
    
