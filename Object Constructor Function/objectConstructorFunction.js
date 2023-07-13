@@ -38,3 +38,17 @@ let laptop3 = new Laptops("acer", "i5", 2020);          //  Object 3 named lapto
 console.log(laptop1);       //  prints laptop1
 console.log(laptop2);       //  prints laptop2
 console.log(laptop3);       //  prints laptop3
+
+
+//  Another example of object constructor function
+function Students(firstname, lastname, university)
+{
+    this.FirstName = firstname;
+    this.LastName = lastname;
+    this.University = university; 
+}
+let student1 = new Students("Safiullah", "Jamil", "UBC");
+let student2 = new Students("Sulaiman", "Samleem", "BCIT");
+console.log(student1);
+console.log(student2);
+
