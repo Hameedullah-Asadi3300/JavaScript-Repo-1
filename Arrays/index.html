@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript Arrays</title>
 </head>
 <body>
     
@@ -119,12 +119,22 @@
         console.log(unsiftFunction);
 
 
+        //  The following syntax also creates an array
+        //  In this syntax, instead of [] we use () as follows:
+        let syntax = new Array(11, 21, 31, 41, 51, 61); //  To make it short, readable and lightweight, we can omit new Array and stik to another syntax
+        console.log(syntax);
 
 
 
+        //  Another syntax for adding values into array
+        let adding = []     //  This is an empty array
+        adding[0] = "Lovely JavaScript";    //  We specified the index and the value of string data type
+        adding[99] = "React Framework";     //  We created another value with the index 99, and there is 98 empty indexes
+        console.log(adding);    //  prints (100) ['Lovely JavaScript', empty × 98, 'React Framework']
 
+        
 
-
+            
 
 
 
