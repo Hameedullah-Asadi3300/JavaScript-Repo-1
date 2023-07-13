@@ -52,3 +52,5 @@ let student2 = new Students("Sulaiman", "Samleem", "BCIT");
 console.log(student1);
 console.log(student2);
 
+
+
