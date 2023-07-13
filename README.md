@@ -12,6 +12,7 @@
 9.        Objects
 10.       Loop
 11.       Template Literal
+12.       Method
 
 
 
@@ -77,6 +78,9 @@
    ## Template Literals
       This project actually allow me to know the basic and fundamental philosophy behind the Template literals.
       In this project, I also worked on placing the variables inside the string using `backtick` characters.
+
+   ## Method
+      In this project I have worked on the syntax for method within an object.
       
       
    
