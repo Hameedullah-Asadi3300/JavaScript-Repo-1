@@ -188,6 +188,27 @@ let addition = function(num1, num2)         //  This function does have name/ano
 let totalSum = addition(20, 30);    //  We assigned the addition variable which the function was assigned to, to the variable named totalSum
 console.log(totalSum);  //  prints 600
 
+//  Note: Whenever we have anonymous function, we can turn it to arrow function as in next example
+/*------------------------*/
+
+
+//  Arrow function - Arrow function makes the acutal syntax shorter
+//Before Arrow 
+let Family = function ()
+{
+    return `Family is the main reason for happiness.`
+}
+let string = Family();
+console.log(string);
+
+//  With arrow   - If the function has only statement, we can write it in only one line
+//  We can not apply one line syntax in function with multiline functions
+let family = () => "Family is the main reason for happiness";   //  This syntax is much shorter
+let sentence = family();
+console.log(sentence);
+
 
 /*------------------------*/
+
+
 
