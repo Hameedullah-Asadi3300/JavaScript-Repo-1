@@ -80,3 +80,6 @@ for (let i = 0; i < 10; i++)                            //  Initizliaed, set the
     console.log(number);                                //  Prints the string
 }
 
+
+
+
