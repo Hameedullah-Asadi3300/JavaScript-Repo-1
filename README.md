@@ -15,6 +15,7 @@
 12.       Method
 13.       this keyword
 14.       object constructor function
+15.       For of and For in Loop
 
 
 
@@ -90,6 +91,9 @@
    ## Object Constructor Function
       In this project, I have worked on how to create an object constructor function to use it as a blueprint
       for other objects.
+
+   ## For of and For in Loop
+      In this project, I have worked on "for of loop" and "for in loop" within array.
       
       
       
