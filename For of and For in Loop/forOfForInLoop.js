@@ -42,6 +42,7 @@ for (let storage of ofLoop)
     // undefined
     // 100
     
+/*-----------------*/
 
 let inLoop = []                                             //  Declared an empty array
 inLoop[0] = 200;                                            //  Assigned a value of 200 with index [0]
@@ -56,7 +57,5 @@ for (let storage2 in inLoop)                                //  we created a var
 //  Prints                              
 // 200
 // 220
-
-
 
 
