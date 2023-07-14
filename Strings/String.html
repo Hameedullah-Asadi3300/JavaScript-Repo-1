@@ -131,7 +131,26 @@
 
 
 
+        //  Code Line Break
+//  It is best practice to break the line if code does nt fit into one single line as follows:
+let lineBreak = "This is JavaScript code " +        //  This is a preferred method
+    "and this is a new line";
+console.log(lineBreak);
 
+//  \Backslash method
+let x = "This is my new \
+line in JavaScript.";       //  However this method does not have universal support
+console.log(x);
+//  Note: It only generates a line in code editor, not in broswer.
+
+
+//Variable/string can also be defined as an object
+function Student (name, job) {
+    this.Name = name;
+    this.Job = job;
+}
+let object1 = new Student("Hameedullah", "Software Developer"); //  Here the variable/string is used as an object with "new" keyword
+console.log(object1);
 
 
 
