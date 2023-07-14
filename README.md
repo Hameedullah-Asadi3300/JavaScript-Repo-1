@@ -16,6 +16,7 @@
 13.       this keyword
 14.       object constructor function
 15.       For of and For in Loop
+16.       Break, Continue and Labels
 
 
 
@@ -94,6 +95,10 @@
 
    ## For of and For in Loop
       In this project, I have worked on "for of loop" and "for in loop" within array.
+
+   ## Break, Continue and Labels
+      This project contains practical examples of break used within switches and loops. It also contains examples of
+      continue statements and JavaScript labels.
       
       
       
