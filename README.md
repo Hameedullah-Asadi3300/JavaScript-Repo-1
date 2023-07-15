@@ -18,6 +18,7 @@
 15.       For of and For in Loop
 16.       Break, Continue and Labels
 17.       Set
+18.       TypeOf
 
 
 
@@ -109,6 +110,8 @@
             4. deletes     | Removes the vaues by passing the value itself, not the index
             5. has         | Returns if the value exits or not with "true" and "false"
       
+   ## TypeOf
+      Typeof.js contains practical examples of all data types that can be hold in JavaScript Variables.
       
       
    
