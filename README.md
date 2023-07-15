@@ -17,6 +17,7 @@
 14.       object constructor function
 15.       For of and For in Loop
 16.       Break, Continue and Labels
+17.       Set
 
 
 
@@ -99,6 +100,14 @@
    ## Break, Continue and Labels
       This project contains practical examples of break used within switches and loops. It also contains examples of
       continue statements and JavaScript labels.
+
+   ## Set
+      This file contains JavaScript set and it's methods:
+            1. add         | Added the values using the variables
+            2. values      | Iterates the values in a set
+            3. size        | Returns the size of a set in number
+            4. deletes     | Removes the vaues by passing the value itself, not the index
+            5. has         | Returns if the value exits or not with "true" and "false"
       
       
       
