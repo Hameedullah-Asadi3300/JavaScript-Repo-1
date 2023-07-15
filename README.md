@@ -19,6 +19,7 @@
 16.       Break, Continue and Labels
 17.       Set
 18.       TypeOf
+19.       Errors
 
 
 
@@ -112,6 +113,15 @@
       
    ## TypeOf
       Typeof.js contains practical examples of all data types that can be hold in JavaScript Variables.
+   
+   ## Errors
+      The erros.js file contains practical example of how to handle error with try, catch, throw, and finally code blocks.
+      I have also listed values(ErrorNames & Description) of JavaScript built in error object which are as follows:
+      1.   SyntaxError
+      2.   ReferenceError
+      3.   TypeError
+      4.   RangeError
+      5.   URIError
       
       
    
