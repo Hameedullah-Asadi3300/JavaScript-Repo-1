@@ -21,10 +21,11 @@
 18. TypeOf
 19. Errors
 20. Number
-            a. BigInt
-            b. NumberMethod
-            c. GlobalMethod
-            d. NumberProperty
+    
+    a. BigInt
+    b. NumberMethod
+    c. GlobalMethod
+    d. NumberProperty
             
    ##  Description
 
