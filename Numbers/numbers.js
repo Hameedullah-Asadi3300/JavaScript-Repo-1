@@ -124,6 +124,46 @@ let num16 = "20";   //  Numeric value in string
 console.log(num15 === num16);   //Returns false
 
 /*------------------*/
+// The largest number that JavaScript can reliably represent with the Number primitive is 253-1, the number beyond that is used with BigInt object
+// "n" - JavaScript number is accurate up to 15 digits, so using more than 15 digits is recommended with appending "n" to the end of value of calling "BigInt"
+let num17 = 1234567891011121314n;     //"n" appended to the end of the value - The value should be inside the parentisis
+console.log(num17);
+//Calling "BigInt" built in object in JavaScript
+let num18 = BigInt(123456789101112131415);  //  BigInt is called before the value - The value should be inside the parentisis
+console.log(num18);
+
+//The typeof BigInt is "bigint" itself
+let type = BigInt(123456789100200300)
+console.log(typeof type);
+
+/*------------------*/
+
+/*BigInt is the second numeric data type of number in JavaScript
+With BigInt, the total data types in JavaScript are 8:
+1.  Number
+2.  BigInt
+3.  string
+4.  Object
+5.  Boolean
+6.  Undefined
+7.  Null
+8.  Symbol
+*/
+//                  Aritmathic between BigInt and a number is not allowed, because type conversion lose information
+//                                  let num19 = 100;    //  Number variable
+//                                  let num20 = BigInt(8009001000200030004000);     //  BigInt Value
+//                                  console.log(num19 + num20); //  throws TypeError
+
+
+//                  BigInt Decimals - Using Decimal or point with BigInt is not allowed
+//                                  let num21 = BigInt(900800.765);      //  Decimal is used with BigInt
+//                                  console.log(num21);     // throws RangError
+
+/*------------------*/
+
+//  BigInt can be used with Hexadecimal, octal and binary notation
+let num22 = 0b100000000000000000000000000000000000000000000000000011n;  //  Binary
+console.log(num22); //  Returns 9007199254740995n
 
 
 
