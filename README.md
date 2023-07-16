@@ -6,6 +6,9 @@
 3. Basic math
 4. Variable Data Type
 5. Array
+
+      a. ArrayMethod
+           
 6. Functions
 7. Booleans and conditional statements
 8. Switch Statements
@@ -51,8 +54,20 @@
    ## Array
       In this project I have worked on arrays in JavaScript, syntax, modifying the elements
       of arrays using the index, functions of arrays like:
-      push, pop, shift, and unshift, and nested array/dimensional array.
 
+      ArrayMEthods
+      The array_methods.js file contains all array methods in JavaScript as follows:
+      toString()                          Returns an array as string with comma as seperator
+      length()                            Returns length of an array
+      pop()                               Deletes the last value
+      shift()                             Deletes the very first value
+      Unshift()                           Adds a value at the first with index 0
+      deletd()                            Remove a value from an array
+      slice()                             Slices part of an array/values into a new array
+      splice()                            Removes values without leaving holes/undefined in an array       
+      flat()                              reduces the dimensionality/nested of nsested array
+      concat()                            concat method concatenates two arrays
+                     
    ## Functions
       In this little project, I have worked on functions in JavaScript, concatenation, 
       conditional statement of if and else if inside the function
