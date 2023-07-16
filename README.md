@@ -22,7 +22,8 @@
 19.       Errors
 20.       Number
             a. BigInt
-            b.NumberMethod
+            b. NumberMethod
+            c. GlobalMethod
 
 
 
@@ -130,17 +131,25 @@
       This project has a few other files, each discuss an important concept in Number and BigInt Data types.
       
       Number
-      This number.js contains practical examples of number data type in JavaScript.   
+      This number.js contains practical examples of number data type in JavaScript.  
+      
       BigInt
       The bigint.js contains how to declare and assign a BigInt, the purpose and some other concepts as follows:
             1.   Number.MAX_SAFE_INTEGER   |   Return the maximum safe integer in JavaScript which is 9007199254740991
             2.   Number.MIN_SAFE_INTEGER   |   Returns the minimum safe integere in JavaScript which is -9007199254740991
             3.   Number.isInteger          |   Used to return true if a number/value is integer
             4.   Number.isSafeInteger      |   Returns true in a number is safe integer
+            
       NumberMethod
       The number_method.js file contains the following number methods:
-      1.   toString()                               Returns a number as string
-      2.   toExponential()                          Returns a number written exponential notation
-      3.   toFixed()                                Return  a number written with a number of decimal
-      4.   toPrecision()                            Returns a number with a specified length
-      5.   ValueOf()                                Returns a number as a number
+      1.   toString()                       |       Returns a number as string
+      2.   toExponential()                  |       Returns a number written exponential notation
+      3.   toFixed()                        |       Return  a number written with a number of decimal
+      4.   toPrecision()                    |       Returns a number with a specified length
+      5.   ValueOf()                        |       Returns a number as a number
+      
+      GlobalMethod
+      The global_method.js contains global method in JavaScript as fllows:
+      1.   parseInt                         |        parses a string and returns a whole number
+      2.   parseFloat                       |        Parses a string and returns floating point number
+      3.   Number                           |        Returns a number and converted from its argument
