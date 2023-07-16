@@ -21,6 +21,8 @@
 18.       TypeOf
 19.       Errors
 20.       Number
+            a. BigInt
+            b.NumberMethod
 
 
 
@@ -137,5 +139,12 @@
             3.   Number.isInteger          |   Used to return true if a number/value is integer
             4.   Number.isSafeInteger      |   Returns true in a number is safe integer
       
+      NumberMethod
+      The number_method.js file contains the following number methods:
+      1.   toString()                               Returns a number as string
+      2.   toExponential()                          Returns a number written exponential notation
+      3.   toFixed()                                Return  a number written with a number of decimal
+      4.   toPrecision()                            Returns a number with a specified length
+      5.   ValueOf()                                Returns a number as a number
       
    
