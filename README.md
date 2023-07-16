@@ -1,29 +1,30 @@
 # JavaScript-Repo-1
    ![image](https://github.com/Hameedullah-Asadi3300/JavaScript-Repo-1/assets/123219655/c68933bf-2e5e-46c3-9209-f407699ca923)
 
-1.        Comments
-2.        Strings
-3.        Basic math
-4.        Variable Data Type
-5.        Array
-6.        Functions
-7.        Booleans and conditional statements
-8.        Switch Statements
-9.        Objects
-10.       Loop
-11.       Template Literal
-12.       Method
-13.       this keyword
-14.       object constructor function
-15.       For of and For in Loop
-16.       Break, Continue and Labels
-17.       Set
-18.       TypeOf
-19.       Errors
-20.       Number
+1. Comments
+2. Strings
+3. Basic math
+4. Variable Data Type
+5. Array
+6. Functions
+7. Booleans and conditional statements
+8. Switch Statements
+9. Objects
+10. Loop
+11. Template Literal
+12. Method
+13. this keyword
+14. object constructor function
+15. For of and For in Loop
+16. Break, Continue and Labels
+17. Set
+18. TypeOf
+19. Errors
+20. Number
             a. BigInt
             b. NumberMethod
             c. GlobalMethod
+            d. NumberProperty
 
 
 
