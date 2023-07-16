@@ -21,18 +21,12 @@
 18. TypeOf
 19. Errors
 20. Number
-            a. BigInt
-            b. NumberMethod
-            c. GlobalMethod
-            d. NumberProperty
-
-
-
-
-
-
-
-
+    
+    a. BigInt
+    b. NumberMethod
+    c. GlobalMethod
+    d. NumberProperty
+            
    ##  Description
 
    ##  Comments
@@ -154,3 +148,16 @@
       1.   parseInt                         |        parses a string and returns a whole number
       2.   parseFloat                       |        Parses a string and returns floating point number
       3.   Number                           |        Returns a number and converted from its argument
+
+      NumberProperties
+      The number_properties is all about number properties in JavaScript as follows:
+      1.   Number.EPSILON
+      2.   Number.MAX_VALUE
+      3.   Number.MIN_VALUE
+      4.   Number.MAX_SAFE_INTEGER
+      5.   Number.MIN_SAFE_INTEGER
+      6.   Number.POSITIVE_INFINITY
+      7.   Number.NEGATIVE_INFINITY
+      8.   NaN
+      
+      
