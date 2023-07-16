@@ -39,8 +39,9 @@ console.log(num4.toFixed(6));           //  prints 10.970000    |  Returns 6 num
 
 //toPercision()
 let num5 = 15.86;
-num5.toPrecision();
+num5.toPrecision(6);
 console.log(num5);
+
 
 
 

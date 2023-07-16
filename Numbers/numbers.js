@@ -11,10 +11,10 @@ let num2 = 10;
 console.log(num2);
 /*------------------*/
 
-//Extra large = The extra large numbers are written with exponent notation "e"
-let num3 = 111e5;   //  The number used after "e" is actually number of zeroes
+//Extra large = The extra large numbers are written with exponent or secintefic notation "e"
+let num3 = 111e5;   //  The number used after "e" is actually number of zeroes which use to the power concept
 console.log(num3);  //  Prints 11100000
-
+//Calculation: 111 * (10**5) = 11100000 | 111 multiplied by 10, to the power of 5 equals to 11100000
 /*------------------*/
 
 //Extra small - ncncnc
@@ -187,14 +187,6 @@ console.log(num22); //  Returns 9007199254740995n
 
 
 
-
-
-
-
-
-// let x = 0.255e3;
-// console.log(x);
-// console.log(0.255e3 === 255);
 
 
 
