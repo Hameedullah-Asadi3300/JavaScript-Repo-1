@@ -144,5 +144,3 @@
       3.   toFixed()                                Return  a number written with a number of decimal
       4.   toPrecision()                            Returns a number with a specified length
       5.   ValueOf()                                Returns a number as a number
-      
-   
