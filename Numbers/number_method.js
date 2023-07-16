@@ -37,10 +37,24 @@ console.log(num4.toFixed(6));           //  prints 10.970000    |  Returns 6 num
 
 /*--------------------*/
 
-//toPercision()
+//toPercision()     -   Is used to format a number to a specific precision or lenght
 let num5 = 15.86;
-num5.toPrecision(6);
-console.log(num5);
+console.log(num5.toPrecision());    //    The original number 15.86 is written because no parametere has passed to it
+console.log(num5.toPrecision(6));   //    The whole lenght of the number will be 6. Returns 15.8600
+console.log(num5.toPrecision(8));   //    The whole lenght of the number will be 8. Returns 15.860000
+ 
+/*--------------------*/
+
+//valueOf   -   Returns a number as number
+let num6 = 1565;
+console.log(num6.valueOf());    //  Returns the original number
+
+/*--------------------*/
+
+
+
+
+
 
 
 
