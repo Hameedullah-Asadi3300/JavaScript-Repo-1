@@ -55,11 +55,7 @@
         console.log(accessingArray[0][0]);  //  The first [0] is the index of first array and the second [0] is the index of of the first value 100
         console.log(accessingArray[3][2]);  //  The first [3] is the index of last array and [2] is the index inside that array which is value of 1200
 
-        //  Push function of array
-        //  The push function is used to add element to the end of the array like so
-        var pushArray = [2000, 2100, 2200, 2300,];
-        pushArray.push(2400, 2500, 2600, 2700); //  These values/elements are added at end of the above array named pushArray
-        console.log(pushArray);
+                    /*-------------------*/
 
         //  Adding a seperate array to the nested array using push function
         var pushingArray = [
@@ -70,61 +66,14 @@
                     pushingArray.push([1050, 1150, 1250]);  //  This syntax adds a seperate array to the array above named pushinArray with index 3
                     console.log(pushingArray);
  
-        //  To remove the last element of an array element, the pop function is used
-        var popFunction = [110, 210, 310, 410];
-        popFunction.pop();
-        console.log(popFunction);
-
-        //  How to remove the last element of an array and store that into another variable
-        var popFunction2 = [120, 220, 320, 420];    //  An array of 4 elements
-        var storeElement = popFunction2.pop();     //  The removed elemen of popFunction2 is stored in variable storeFunction
-        console.log(storeElement);
-        //  NOTE: We can also pop an entire element and store it to another variable
-
-        var listOfArrays = [
-                        [125, 135, 145, 155, 165],
-                        [225, 235, 245, 255, 265],  //  We will delete this array
-                        ]
-                        // listOfArrays.pop(); //  This pop statement reoved the second nested array
-                        storedArray = listOfArrays.pop();    // The removed array values are stored in array named storedArray                
-                        console.log(storedArray);
-
-        //  Shift function is used to remove the first element of the array
-        var firstElement = [13, 23, 33, 43, 53];    //  We will remove the first element
-        // firstElement.shift();   //  The first elements is deleted
-        storedElement = firstElement.shift();   //  This statement stores the first and removed element to the storedElement variable
-        console.log(storedElement);
-
-        //  Shift removes the first element at the beginning of an array
-        var shiftnestedArray = [
-                                [5, 10, 15, 20],    //  We are going to delete this array
-                                [25, 30, 40, 45],   //  This will remain
-                                ]
-                                //  shiftnestedArray.shift();   //  Removes the first array
-                                storingRemvedArray = shiftnestedArray.shift();  //  The removed array is stored as value of storingRemovedArray
-                                console.log(storingRemvedArray);
+                    /*-------------------*/
         
-        //  Unshift function adds element to the beginning of an array
-        var unsiftFunction = [300, 310, 330, 340];
-        unsiftFunction.unshift(290);    //  The element 290 is added as first element of the above array
-        console.log(unsiftFunction);
-
-        //  unsift - adding an array to the nested array
-        var unsiftFunction = [
-                            [400, 410, 420],
-                            [500, 510, 520],
-                            [600, 610, 620],
-                            ];
-        unsiftFunction.unshift([300, 310, 320]);    //  This is added as first array/element of the above nested array
-        console.log(unsiftFunction);
-
-
         //  The following syntax also creates an array
         //  In this syntax, instead of [] we use () as follows:
         let syntax = new Array(11, 21, 31, 41, 51, 61); //  To make it short, readable and lightweight, we can omit new Array and stik to another syntax
         console.log(syntax);
 
-
+                    /*-------------------*/
 
         //  Another syntax for adding values into array
         let adding = []     //  This is an empty array
