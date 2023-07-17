@@ -150,5 +150,14 @@ at end of each property before "." notation as follows:
 
 
 
+//JSON.stringify    -   This is a function which coverts a JavaScript object to string
+const country = {
+    name: "Afghanistan",
+    location: "South Asia",
+    nationals: "Afghans"
+}
+const statement = JSON.stringify(country);      //The object "country" is now string
+console.log(country);   //  displays { name: 'Afghanistan', location: 'South Asia', nationals: 'Afghans' }
+
 
 

@@ -111,3 +111,9 @@ console.log(luckyNumber);   //  prints [ 34, 19, 58, 45 ]
 
 
 
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
