@@ -89,7 +89,9 @@
    ## Object
       Inside this project, I have worked on how to create an object, nested objects, how to access to
       properties inside the object and nested objects,
-      how to remove a property from an object, and how to add property and value using both dot and bracket notations.
+      how to remove a property from an object, and how to add property and value using both
+      dot and bracket notations.
+      It also contans the JSON.stringify function.
 
    ## Loop
       In this .js file, I have worked on all three types of loops, for, while and do while loop.
