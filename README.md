@@ -7,8 +7,7 @@
 4. Variable Data Type
 5. Array
 
-      a. ArrayMethod
-           
+      a. ArrayMethod        
 6. Functions
 7. Booleans and conditional statements
 8. Switch Statements
@@ -29,7 +28,7 @@
     b. NumberMethod
     c. GlobalMethod
     d. NumberProperty
-            
+21. Math
    ##  Description
 
    ##  Comments
@@ -174,5 +173,17 @@
       6.   Number.POSITIVE_INFINITY
       7.   Number.NEGATIVE_INFINITY
       8.   NaN
+   ## Math
+      The math.js file contains following math methods:
+      Math.round()                        Math.trunc()
+      Math.ceil()                         Math.sign()
+      Math.floor()                        Math.pow()
+      Math.squrt()                        Math.abs()
+      Math.min()                          Math.random()
+      Math.max()                          Math.
+    
+      
+      
+      
       
       
