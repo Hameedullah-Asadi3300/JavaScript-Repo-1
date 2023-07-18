@@ -29,6 +29,8 @@
     c. GlobalMethod
     d. NumberProperty
 21. Math
+22. Date
+    
    ##  Description
 
    ##  Comments
@@ -183,8 +185,16 @@
       Math.squrt()                        Math.abs()
       Math.min()                          Math.random()
       Math.max()                          Math.
-    
-      
+
+   ## Date
+      The date.js file contains the synatx and basic syntax of date object.
+
+      DateMethod
+      The date_method.js file contains a few mostly used date moethods such as:
+      toDateString()                                    getFullYear()
+      toUTCString()                                     getDay()
+      toLocaleString()                                  getDate()
+      toJSON()
       
       
       
