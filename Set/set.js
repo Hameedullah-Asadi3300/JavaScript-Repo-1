@@ -48,34 +48,7 @@ console.log(set4);                          //  prints all the values
 
 /*--------------------*/
 
-//  Value Method - It returns a new iterator object containing all the values in a set
-let set5 = new Set(["Kabul", "Doha", "Riyadh", "Paris", "Tokyo"]);
-//  We use iterator object to access each element in order
-for (let values of set5.values())
-{
-    console.log(values);
-    }
 
-/*--------------------*/
-
-//  Has Method - It checks if the value exists in the set. It returns true and false
-let set6 = new Set(["Qatar", "Kuwait", "Iraq", "Egypt"])
-console.log(set6.has("Kuwait"));        //  Returns true
-
-/*--------------------*/
-
-//Delete Method - Deletes values by the writing the value itself, not the index
-let set7 = new Set([31, 32, 33, 34, 35])            //  A set of 5 values
-console.log(set7.delete(35));       //  Deletes the value 35
-console.log(set7);                  //  Prints Set(4) { 31, 32, 33, 34 }
-
-/*--------------------*/
-
-//Size Method - prints number of values in a set
-let set8 = new Set([4, 14, 24, 34, 44])         //  Set of 5 values
-console.log(set8.size);         //  prints 5
-
-/*--------------------*/
 
 
 
