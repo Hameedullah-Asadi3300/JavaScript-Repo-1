@@ -20,6 +20,9 @@
 15. For of and For in Loop
 16. Break, Continue and Labels
 17. Set
+
+    a. set.js
+    b. set_method.js
 18. TypeOf
 19. Errors
 20. Number
@@ -121,13 +124,18 @@
       continue statements and JavaScript labels.
 
    ## Set
-      This file contains JavaScript set and it's methods:
-            1.    add         | Added the values using the variables
-            2.    values      | Iterates the values in a set
-            3.    size        | Returns the size of a set in number
-            4.    deletes     | Removes the vaues by passing the value itself, not the index
-            5.    has         | Returns if the value exits or not with "true" and "false"
-      
+   
+      set.js
+      This set.js file contains JavaScript syntax for set and the basic undertading.
+
+      set_method.js
+            1.    add()         | Added the values using the variables
+            2.    values()      | Iterates the values in a set
+            3.    size()        | Returns the size of a set in number
+            4.    delete()      | Removes the vaues by passing the value itself, not the index
+            5.    has()         | Returns if the value exits or not with "true" and "false"
+            6.    new Set()     | creates a new set
+            7.    size property | returns number of elements in a set
    ## TypeOf
       Typeof.js contains practical examples of all data types that can be hold in JavaScript Variables.
    
