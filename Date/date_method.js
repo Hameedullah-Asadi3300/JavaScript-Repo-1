@@ -38,34 +38,41 @@ getSeconds()	            Get second (0-59)
 
 */
 /*--------------------*/
+
 //  getFullYear()   -   Returns the full current year
 const method6 = new Date();
-method6.getFullYear();  //  Returns 2023
+  //  Returns 2023
+console.log(method6.getFullYear());
 
 /*--------------------*/
+
 //  getDay()    -   Returns the current as number from 0-6
 const method7 = new Date();
-method7.getDay();   //  Returns number from 0-6
+console.log(method7.getDay());                 //  Returns number from 0-6
 
 /*--------------------*/
+
 //  getDate()   -   Returns the date as number 
 const method8 = new Date();
-method8.getDate();  //  Returns number like 17
+console.log(method8.getDate());                 //  Returns number like 17
 
 /*--------------------*/
+
 //  GetHours
 const method9 = new Date();
-method9.getHours();     //  Retuns hours from 0-23
+console.log(method9.getHours());                //  Retuns hours from 0-23
 
 /*--------------------*/
+
 //  getMinutes
 const method10 = new Date();
-method10.getMinutes();  //  Return 0-59
+console.log(method10.getMinutes());              //  Return 0-59
 
 /*--------------------*/
+
 //  getSeconds
 const method11 = new Date();
-method11.getSeconds();  //  Returns 0-59
+console.log(method11.getSeconds());              //  Returns 0-59
 
 /*--------------------*/
 
