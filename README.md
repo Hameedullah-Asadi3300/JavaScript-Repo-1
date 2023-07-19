@@ -33,6 +33,9 @@
     d. NumberProperty
 21. Math
 22. Date
+23. Class
+
+    a. class.js      b. class_inheritence.js
     
    ##  Description
 
@@ -204,6 +207,10 @@
       toLocaleString()                                  getDate()
       toJSON()
       
+   ## Class
+      The class.js contains the defination and the syntax for creating a class.
       
+      b. class_inheritence.js
+      This file includes the practical example of class inheritence in JavaScript.
       
       
