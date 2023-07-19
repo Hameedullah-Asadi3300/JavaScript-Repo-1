@@ -7,33 +7,34 @@
 4. Variable Data Type
 5. Array
 
-      a. ArrayMethod        
-6. Functions
-7. Booleans and conditional statements
-8. Switch Statements
-9. Objects
-10. Loop
-11. Template Literal
-12. Method
-13. this keyword
-14. object constructor function
-15. For of and For in Loop
-16. Break, Continue and Labels
-17. Set
+      a. ArrayMethod
+      b. Map()      
+7. Functions
+8. Booleans and conditional statements
+9. Switch Statements
+10. Objects
+11. Loop
+12. Template Literal
+13. Method
+14. this keyword
+15. object constructor function
+16. For of and For in Loop
+17. Break, Continue and Labels
+18. Set
 
     a. set.js
     b. set_method.js
-18. TypeOf
-19. Errors
-20. Number
+19. TypeOf
+20. Errors
+21. Number
     
     a. BigInt
     b. NumberMethod
     c. GlobalMethod
     d. NumberProperty
-21. Math
-22. Date
-23. Class
+22. Math
+23. Date
+24. Class
 
     a. class.js      b. class_inheritence.js
     
@@ -213,4 +214,5 @@
       b. class_inheritence.js
       This file includes the practical example of class inheritence in JavaScript.
       
-      
+   ## Destructure
+      In destructure.js contains practical examples of array destructuring.
