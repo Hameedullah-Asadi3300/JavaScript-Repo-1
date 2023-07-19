@@ -214,4 +214,5 @@
       b. class_inheritence.js
       This file includes the practical example of class inheritence in JavaScript.
       
-      
+   ## Destructure
+      In destructure.js contains practical examples of array destructuring.
