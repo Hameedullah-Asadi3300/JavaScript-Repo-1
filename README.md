@@ -1,5 +1,5 @@
 # JavaScript-Repo-1
-   ![image](https://github.com/Hameedullah-Asadi3300/JavaScript-Repo-1/assets/123219655/c68933bf-2e5e-46c3-9209-f407699ca923)
+![image](https://github.com/Hameedullah-Asadi3300/JavaScript-Repo-1/assets/123219655/e2bd4e41-bd67-4992-a19b-a600196e7431)
 
 1. Comments
 2. Strings
