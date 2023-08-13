@@ -225,16 +225,35 @@
                   const combination = [...number1, ...number2];
                   document.write(combination);
                   //      It combines and prints all values in both arrays.
-      const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                  
+                  const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            
+                  //  In the following line, we assigned the 1 and 2 to the variables one, and two and the rest to the array named restInArray
+                  const [one, two, three, ...restInArray] = myNumbers;
+                  document.write("<p>" + one + "</p>");           //  prints to the console
+                  document.write("<p>" + two + "</p>");           //  prints to the console
+                  document.write("<p>" + restInArray + "</p>");   //  prints to the console
+                  /*
+                  It will return:
+                  1
+                  2
+                  3,4,5,6,7,8,9,10
+                  */
 
-      //  In the following line, we assigned the 1 and 2 to the variables one, and two and the rest to the array named restInArray
-      const [one, two, three, ...restInArray] = myNumbers;
-      document.write("<p>" + one + "</p>");           //  prints to the console
-      document.write("<p>" + two + "</p>");           //  prints to the console
-      document.write("<p>" + restInArray + "</p>");   //  prints to the console
-      /*
-      It will return:
-      1
-      2
-      3,4,5,6,7,8,9,10
-      */
+      It also includes a spread operator working with objects:
+                  const myVehicle = {
+                          brand: 'Ford',
+                          model: 'Mustang',
+                          color: 'red'
+                        }
+                        
+                        const updateMyVehicle = {
+                          type: 'car',
+                          year: 2021, 
+                          color: 'yellow'
+                        }
+                        
+                        const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
+                        //      prints it into the console
+                        console.log(myUpdatedVehicle);
+
