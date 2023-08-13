@@ -216,3 +216,25 @@
       
    ## Destructure
       In destructure.js contains practical examples of array destructuring.
+
+   ## Spread Operator
+      Spread Opertor intoduced in ES6 and allows quick copy all or part of the array or an object. The spread_operaotr.html
+      includes example of spread operator as follows:
+      const number1 = [100, 200, 300];
+                  const number2 = [400, 500, 600];
+                  const combination = [...number1, ...number2];
+                  document.write(combination);
+                  //      It combines and prints all values in both arrays.
+      const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+      //  In the following line, we assigned the 1 and 2 to the variables one, and two and the rest to the array named restInArray
+      const [one, two, three, ...restInArray] = myNumbers;
+      document.write("<p>" + one + "</p>");           //  prints to the console
+      document.write("<p>" + two + "</p>");           //  prints to the console
+      document.write("<p>" + restInArray + "</p>");   //  prints to the console
+      /*
+      It will return:
+      1
+      2
+      3,4,5,6,7,8,9,10
+      */
