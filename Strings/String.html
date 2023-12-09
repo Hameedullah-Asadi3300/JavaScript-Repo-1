@@ -7,14 +7,14 @@
 </head>
 <body>
     
-
+   
     <script>
         //  Anything inside single or double quote is string as follows.
-        var myString = "My name is Hameedullah Asadi, and I am a front-end developer."
+        let myString = "My name is Hameedullah Asadi, and I am a front-end developer."
         console.log(myString);
 
         //  Escaping literal quotes in Strings
-        var escapingQuotes = "Austin Freeman say:\"Simplicity is the soul of efficiency.\"";
+        let escapingQuotes = "Austin Freeman say:\"Simplicity is the soul of efficiency.\"";
         console.log(escapingQuotes);
 
         //  Quote string with single quotes
@@ -22,13 +22,13 @@
         for our string and double quote for our quotation
         instead the escape character \" \"
         */
-        var singleQuote = 'Developers beleive: "JavaScript is one of the intersting programming language."';
+        var singleQuote = 'Developers beleive: "The JavaScript is one of the intersting programming language."';
         console.log(singleQuote);
 
         /*  The backtick is also used as escape character and inside that we can use all double and single quote, and \" \"
         The backtick is located under Esc.
         */
-        var string = `This is my "love" and I \"Beleive\" it 'true' love.`;
+        let string = `This is my "love" and I \"Beleive\" it 'true' love.`;
         console.log(string);
 
         //  Escape sequences in strings
@@ -50,72 +50,131 @@
         console.log(singleQuote);
 
         //  Double quote
-        var doubleQuote = "I love this \"world\".";
+        let doubleQuote = "I love this \"world\".";
         console.log(doubleQuote);
 
         //  New line
-        var newLine = "I love this world.\nAnd its all creatures.";
+        let newLine = "I love this world.\nAnd its all creatures.";
         console.log(newLine);
 
         //  Tab
-        var tabCreating = "\tI love this world.";
+        let tabCreating = "\tI love this world.";
         console.log(tabCreating);
 
         //  Single backslash
-        var singleBackSlash = "I love \\world.";
+        let singleBackSlash = "I love \\world.";
         console.log(singleBackSlash);
 
         //  Backspace
-        var backSpace = "I love this \bworld.";
+        let backSpace = "I love this \bworld.";
         console.log(backSpace);
 
         //  Form feed
-        var formFeed = "I love this \fworld.";
+        let formFeed = "I love this \fworld.";
         console.log(formFeed);
 
         //  Carriage return
-        var carrigeReturn = "I love this \rworld.";
+        let carrigeReturn = "I love this \rworld.";
         console.log(carrigeReturn);
 
         //  Concatenation
         //  This is one way of concatenation
-        var concatenatedString = "This is my life,";
+        let concatenatedString = "This is my life,";
         concatenatedString += " And I definately love it.";
         console.log(concatenatedString);
 
         //  Concatenation second method
-        var concatenatedString1 = "This is my love,";
-        var concatenatedString2 = " and I love it.";
+        let concatenatedString1 = "This is my love,";
+        let concatenatedString2 = " and I love it.";
         console.log(concatenatedString1 + concatenatedString2); 
 
         //Concatenation third method
-        var name = "Hameedullah Asadi";
-        var fullStatement = "Hello my name is " + name + "," + " how can I help you.";
+        let name = "Hameedullah Asadi";
+        let fullStatement = "Hello my name is " + name + "," + " how can I help you.";
         console.log(fullStatement);
 
-        //  Appending variables to string
-        var appendingVariables = ""
 
-        //  Length of the string
-        //  It is used to specify length of a string
-        var lengthOfSting = "My name is Hameedullah Asadi, and I a JavaScript developer.";
+        let firststring = "I have two kids and both are lovely.";
+        firststring += " Thier names are Hisham and Nabil.";
+        console.log(firststring);
+
+        let live = "I am a software"
+        let  live2 = " and I live in Vancouver, BC, Canada.";
+        console.log(live + live2);
+
+        let code = "frontend";
+        let domain = "I am a " + code + " " + "developer.";
+        console.log(domain);
+
+
+        let firstsentence = "I am a JavaScript developer";
+        firstsentence += " and I love coding in this program.";
+        console.log(firstsentence);
+        console.log(firstsentence.concat);
+
+        
+        
+
+        /*
+        The followings are the string methods in JavaScript:
+        String length()
+        String slice()
+        String substring()
+        String substr()
+        String replace()
+        String replaceAll()
+        String toUpperCase()
+        String toLowerCase()
+        String concat()
+        String trim()
+        String trimStart()
+        String trimEnd()
+        String padStart()
+        String padEnd()
+        String charAt()
+        String charCodeAt()
+        String split()
+        */
+
+
+        //  String length()                     It is used to specify length of a string
+        let lengthOfSting = "My name is Hameedullah Asadi, and I a JavaScript developer.";
         console.log(lengthOfSting.length);  //  The .length here will return integer which number of charcaters inside our strng
 
+        let mysentence = "My name is Hameedullah Asadi and I am front-end developer.";
+        console.log(mysentence);
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        //  Appending variables to string
+        let appendingVariables = ""
+
+
         //  Finding a specific characters based on index
-        var findingCharacters = "Hameedullah Asadi";
-        var firstLetter = findingCharacters[0];     //  This will print the first letter which is H
+        let findingCharacters = "Hameedullah Asadi";
+        let firstLetter = findingCharacters[0];     //  This will print the first letter which is H
         console.log(firstLetter);
 
         //  -   Length
-        var negativeLength = "I love coding";
-        var theOutput = negativeLength[negativeLength.length - 1];  //  This will print g as last charcter of the string. We can change the parameter to any number using negative operator
+        let negativeLength = "I love coding";
+        let theOutput = negativeLength[negativeLength.length - 1];  //  This will print g as last charcter of the string. We can change the parameter to any number using negative operator
         console.log(theOutput);
 
         /*
         strings are immutable in JavaScript, but it does not mean
         that we cannot bring changes. We can bring changes as follows:
         */
-        var immutableString = "Ny name is Hameedullah Asadi.";  //  The first word is misspelled, and we want to make to correct.
+        let immutableString = "Ny name is Hameedullah Asadi.";  //  The first word is misspelled, and we want to make to correct.
         immutableString[0] = "My";                              //  But this will not work
         console.log(immutableString);
         //  Instead we do thid
@@ -125,7 +184,7 @@
         //  Making lines of code short
         /*  For readibility of our code, this is the best practice to break our into line as follows.
         The best location to break it is after comma, using closing quotation mark, plus sign jumping to the next line*/
-        var longCode = "My name is Hameedullah Asadi, " +
+        let longCode = "My name is Hameedullah Asadi, " +
         "and I love coding in JavaScript.";
         console.log(longCode);
 
