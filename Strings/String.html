@@ -69,13 +69,8 @@
         let backSpace = "I love this \bworld.";
         console.log(backSpace);
 
-        //  Form feed
-        let formFeed = "I love this \fworld.";
-        console.log(formFeed);
 
-        //  Carriage return
-        let carrigeReturn = "I love this \rworld.";
-        console.log(carrigeReturn);
+
 
         //  Concatenation
         //  This is one way of concatenation
@@ -98,7 +93,7 @@
         firststring += " Thier names are Hisham and Nabil.";
         console.log(firststring);
 
-        let live = "I am a software"
+        let live = "I am a software developer";
         let  live2 = " and I live in Vancouver, BC, Canada.";
         console.log(live + live2);
 
@@ -110,10 +105,36 @@
         let firstsentence = "I am a JavaScript developer";
         firstsentence += " and I love coding in this program.";
         console.log(firstsentence);
-        console.log(firstsentence.concat);
 
         
+        //  Template string concatenation - Note: The `` back tics should be used here.
+        //  The job of the template string is to inject the variable in which the + sings are not used.
+        let fullName = 'Hameedullah Asadi';
+        let profession = 'front-end developer';
+        let result = `My name is ${fullName} and I am a ${profession}.`;
+        console.log(result);
+
+
+        //  HTML template
+        let title = "Be like water my freind";
+        let author = "Shannon Lee";
+        let topic = "the teaching of Bruce Lee";
+        let html = `
+        <h2>${title}</h2>
+        <p>${author}</p>
+        <i>The ${title} by ${author} is about ${topic}</i>
+        `;
+        console.log(html);
+
+
+
+
+
         
+
+
+
+
 
         /*
         The followings are the string methods in JavaScript:
@@ -146,11 +167,6 @@
 
 
     
-
-
-
-
-
 
 
 
