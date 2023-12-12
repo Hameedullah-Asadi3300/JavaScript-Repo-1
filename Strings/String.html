@@ -127,15 +127,6 @@
         console.log(html);
 
 
-
-
-
-        
-
-
-
-
-
         /*
         The followings are the string methods in JavaScript:
         String length()
@@ -160,21 +151,115 @@
 
         //  String length()                     It is used to specify length of a string
         let lengthOfSting = "My name is Hameedullah Asadi, and I a JavaScript developer.";
-        console.log(lengthOfSting.length);  //  The .length here will return integer which number of charcaters inside our strng
+        console.log(lengthOfSting.length);  //  The .length here will return integer which number of charcaters inside our string
+
+
+        //  String slice()
+        let extraction = "For front-end developers it is must to know the JavaScript.";
+        console.log(extraction.slice(24));
+
+
+        /*  String replace()     - We are replacing orange with watermelon. this method can replace
+        the first word only and that is it.
+        */
+        let replacing = "Banana, orange, kiwi, orange";
+        console.log(replacing.replace("orange", "watermelon"));
+
+
+        //  String replaceAll() - This methods replace all the words with the new chosen word
+        let cars = "BMW, Tesla, Audi, BMW";
+        console.log(cars.replaceAll("BMW", "Toyota"));
+
+
+        //  String toUpperCase()
+        let sentence1 = " I am an ethusiast front-end developer";
+        console.log(sentence1.toUpperCase());
+
+
+        //  String toLowerCase()
+        let sentence2 = "Hello WORLD";
+        console.log(sentence2.toLowerCase());
+
+
+        //  String concat() the concat() method the same job as the plus sign does in cocatenation
+        let sentence3 = "I love coding in";
+        let sentence4 = sentence3.concat(" ", "JavaScript");
+        console.log(sentence4);
+        //  String concat() second method
+        let hello2 = "Hello, ";
+        console.log(hello2.concat("Alice, How are you doing?"));
+
+
+        //  string trim()   This method removes all the white spaces
+        let trimming = "                             Hi, this is Hameedullah Asadi!";
+        console.log(trimming.trim());
+        //  trimgStart()    But the trimStart() method removes only the space at the start
+        let trimming2 = "           Hi, my          name is              Hameed!            ";
+        console.log(trimming2.trimStart());
+        
+
+        //  String trimEnd()
+        let trimming3 = "   The trimEnd() method will   only remove the white spaces at the end          .          ";
+        console.log(trimming3.trimEnd());
+
+
+        //  String padStart() The padStart method pads a string at the start until it reaches a given length
+        let padding = "Hello";
+        console.log(padding.padStart(9, "H"));
+
+
+        //  String padEnd() This method actually pads a string at the end until it reaches the given length
+        let padding2 = "10";
+        console.log(padding2.padEnd(8, 9));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
 
         let mysentence = "My name is Hameedullah Asadi and I am front-end developer.";
         console.log(mysentence);
 
-
-    
-
-
-
-
-
         //  Appending variables to string
         let appendingVariables = ""
-
 
         //  Finding a specific characters based on index
         let findingCharacters = "Hameedullah Asadi";
@@ -193,7 +278,7 @@
         let immutableString = "Ny name is Hameedullah Asadi.";  //  The first word is misspelled, and we want to make to correct.
         immutableString[0] = "My";                              //  But this will not work
         console.log(immutableString);
-        //  Instead we do thid
+        //  Instead we do this
         immutableString = "My name is Hameedullah Asadi.";      //  This will make it correct
         console.log(immutableString);
 
@@ -207,7 +292,7 @@
 
 
         //  Code Line Break
-//  It is best practice to break the line if code does nt fit into one single line as follows:
+//  It is best practice to break the line if code does not fit into one single line as follows:
 let lineBreak = "This is JavaScript code " +        //  This is a preferred method
     "and this is a new line";
 console.log(lineBreak);
@@ -226,6 +311,20 @@ function Student (name, job) {
 }
 let object1 = new Student("Hameedullah", "Software Developer"); //  Here the variable/string is used as an object with "new" keyword
 console.log(object1);
+
+
+function Teacher (name, school) {
+    this.Name = name;
+    this.School = school;
+}
+let teacher1 = new Teacher("Rodrigo Dominguez", "QE Community Schools");
+console.log(teacher1);
+
+
+
+
+
+        
 
 
 
