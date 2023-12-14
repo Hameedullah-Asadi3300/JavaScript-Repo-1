@@ -6,17 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!--
+        String is a series of letter, numbers and characters which has properties and methods.
+    -->
    
     <script>
         //  Anything inside single or double quote is string as follows.
         let myString = "My name is Hameedullah Asadi, and I am a front-end developer."
         console.log(myString);
-
-        //  Escaping literal quotes in Strings
-        let escapingQuotes = "Austin Freeman say:\"Simplicity is the soul of efficiency.\"";
-        console.log(escapingQuotes);
-
         //  Quote string with single quotes
         /*  To make it easy, we can also use single quote 
         for our string and double quote for our quotation
@@ -25,11 +22,20 @@
         var singleQuote = 'Developers beleive: "The JavaScript is one of the intersting programming language."';
         console.log(singleQuote);
 
+
+
+        //  Escaping literal quotes in Strings
+        let escapingQuotes = "Austin Freeman say:\"Simplicity is the soul of efficiency.\"";
+        console.log(escapingQuotes);
+
+
         /*  The backtick is also used as escape character and inside that we can use all double and single quote, and \" \"
         The backtick is located under Esc.
         */
         let string = `This is my "love" and I \"Beleive\" it 'true' love.`;
         console.log(string);
+
+
 
         //  Escape sequences in strings
         /*
@@ -71,41 +77,21 @@
 
 
 
-
         //  Concatenation
         //  This is one way of concatenation
-        let concatenatedString = "This is my life,";
-        concatenatedString += " And I definately love it.";
-        console.log(concatenatedString);
-
-        //  Concatenation second method
-        let concatenatedString1 = "This is my love,";
-        let concatenatedString2 = " and I love it.";
-        console.log(concatenatedString1 + concatenatedString2); 
-
-        //Concatenation third method
-        let name = "Hameedullah Asadi";
-        let fullStatement = "Hello my name is " + name + "," + " how can I help you.";
-        console.log(fullStatement);
-
-
-        let firststring = "I have two kids and both are lovely.";
-        firststring += " Thier names are Hisham and Nabil.";
-        console.log(firststring);
-
-        let live = "I am a software developer";
-        let  live2 = " and I live in Vancouver, BC, Canada.";
-        console.log(live + live2);
-
-        let code = "frontend";
-        let domain = "I am a " + code + " " + "developer.";
-        console.log(domain);
-
-
         let firstsentence = "I am a JavaScript developer";
         firstsentence += " and I love coding in this program.";
         console.log(firstsentence);
 
+        //  Concatenation second method
+        let live = "I am a software developer";
+        let  live2 = " and I live in Vancouver, BC, Canada.";
+        console.log(live + live2);
+
+        //Concatenation third method
+        let code = "frontend";
+        let domain = "I am a " + code + " " + "developer.";
+        console.log(domain);
         
         //  Template string concatenation - Note: The `` back tics should be used here.
         //  The job of the template string is to inject the variable in which the + sings are not used.
@@ -113,7 +99,6 @@
         let profession = 'front-end developer';
         let result = `My name is ${fullName} and I am a ${profession}.`;
         console.log(result);
-
 
         //  HTML template
         let title = "Be like water my freind";
@@ -148,16 +133,13 @@
         String split()
         */
 
-
         //  String length()                     It is used to specify length of a string
         let lengthOfSting = "My name is Hameedullah Asadi, and I a JavaScript developer.";
         console.log(lengthOfSting.length);  //  The .length here will return integer which number of charcaters inside our string
 
-
         //  String slice()
         let extraction = "For front-end developers it is must to know the JavaScript.";
         console.log(extraction.slice(24));
-
 
         /*  String replace()     - We are replacing orange with watermelon. this method can replace
         the first word only and that is it.
@@ -165,21 +147,17 @@
         let replacing = "Banana, orange, kiwi, orange";
         console.log(replacing.replace("orange", "watermelon"));
 
-
         //  String replaceAll() - This methods replace all the words with the new chosen word
         let cars = "BMW, Tesla, Audi, BMW";
         console.log(cars.replaceAll("BMW", "Toyota"));
-
 
         //  String toUpperCase()
         let sentence1 = " I am an ethusiast front-end developer";
         console.log(sentence1.toUpperCase());
 
-
         //  String toLowerCase()
         let sentence2 = "Hello WORLD";
         console.log(sentence2.toLowerCase());
-
 
         //  String concat() the concat() method the same job as the plus sign does in cocatenation
         let sentence3 = "I love coding in";
@@ -189,7 +167,6 @@
         let hello2 = "Hello, ";
         console.log(hello2.concat("Alice, How are you doing?"));
 
-
         //  string trim()   This method removes all the white spaces
         let trimming = "                             Hi, this is Hameedullah Asadi!";
         console.log(trimming.trim());
@@ -197,79 +174,37 @@
         let trimming2 = "           Hi, my          name is              Hameed!            ";
         console.log(trimming2.trimStart());
         
-
         //  String trimEnd()
         let trimming3 = "   The trimEnd() method will   only remove the white spaces at the end          .          ";
         console.log(trimming3.trimEnd());
-
 
         //  String padStart() The padStart method pads a string at the start until it reaches a given length
         let padding = "Hello";
         console.log(padding.padStart(9, "H"));
 
-
         //  String padEnd() This method actually pads a string at the end until it reaches the given length
         let padding2 = "10";
         console.log(padding2.padEnd(8, 9));
 
+        //  String indexOf  -   This method finds the index of a value in a variable
+        let ind = "To become a front-end developer, you should learn JavaScript.....";
+        console.log(ind.indexOf('b'));
 
+        //  String substr()  -   This method extracts a specified number of characters
+        //  The difference is that this method extracts starting from index 2 and catches 10 charcaters overall.
+        let subs = "In this statement the method substring() is used.";
+        console.log(subs.substr(5, 10));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        let mysentence = "My name is Hameedullah Asadi and I am front-end developer.";
-        console.log(mysentence);
-
-        //  Appending variables to string
-        let appendingVariables = ""
+            /*
+            line break
+            changing the string
+            mutting the string
+            */
 
         //  Finding a specific characters based on index
         let findingCharacters = "Hameedullah Asadi";
         let firstLetter = findingCharacters[0];     //  This will print the first letter which is H
         console.log(firstLetter);
-
-        //  -   Length
-        let negativeLength = "I love coding";
-        let theOutput = negativeLength[negativeLength.length - 1];  //  This will print g as last charcter of the string. We can change the parameter to any number using negative operator
-        console.log(theOutput);
 
         /*
         strings are immutable in JavaScript, but it does not mean
@@ -288,48 +223,20 @@
         let longCode = "My name is Hameedullah Asadi, " +
         "and I love coding in JavaScript.";
         console.log(longCode);
+        //  \Backslash method
+        let x = "This is my new \
+        line in JavaScript.";       //  However this method does not have universal support
+        console.log(x);
+        //  Note: It only generates a line in code editor, not in broswer.
 
 
-
-        //  Code Line Break
-//  It is best practice to break the line if code does not fit into one single line as follows:
-let lineBreak = "This is JavaScript code " +        //  This is a preferred method
-    "and this is a new line";
-console.log(lineBreak);
-
-//  \Backslash method
-let x = "This is my new \
-line in JavaScript.";       //  However this method does not have universal support
-console.log(x);
-//  Note: It only generates a line in code editor, not in broswer.
-
-
-//Variable/string can also be defined as an object
-function Student (name, job) {
-    this.Name = name;
-    this.Job = job;
-}
-let object1 = new Student("Hameedullah", "Software Developer"); //  Here the variable/string is used as an object with "new" keyword
-console.log(object1);
-
-
-function Teacher (name, school) {
-    this.Name = name;
-    this.School = school;
-}
-let teacher1 = new Teacher("Rodrigo Dominguez", "QE Community Schools");
-console.log(teacher1);
-
-
-
-
-
-        
-
-
-
-
-
+        //Variable/string can also be defined as an object
+        function Student (name, job) {
+            this.Name = name;
+            this.Job = job;
+        }
+        let object1 = new Student("Hameedullah", "Software Developer"); //  Here the variable/string is used as an object with "new" keyword
+        console.log(object1);
     </script>
 </body>
 </html>
