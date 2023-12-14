@@ -1,5 +1,43 @@
-// The largest number that JavaScript can reliably represent with the Number primitive is 253-1, the number beyond that is used with BigInt object
-// "n" - JavaScript number is accurate up to 15 digits, so using more than 15 digits is recommended with appending "n" to the end of value of calling "BigInt"
+
+
+/*  JavaScript has only one type of number, which can be written with or witout decimal.
+    Numbers without a period in JavaScript can be accurate up tp 15 digits.
+*/
+//  Eample 
+
+console.log(2.4);
+console.log(1400);
+
+
+/*
+    JavaScript numbers use + arithmethic operator in both numbers and strings to concatenate
+    Example:
+*/
+let num1 = 10;
+let string1 = "20";
+console.log(num1 + string1);    //  The result is 1020
+//  And the commom mistake of the following operation is 3030
+let x = 10;
+let y = 20;
+console.log("The result is: " + x + y);
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+The largest number that JavaScript can reliably represent with the Number primitive is 253-1,
+     the number beyond that is used with BigInt object
+"n" - JavaScript number is accurate up to 15 digits, so using more than 15 digits is
+     recommended with appending "n" to the end of value of calling "BigInt"
+*/
 let num17 = 1234567891011121314n;     //"n" appended to the end of the value - The value should be inside the parentisis
 console.log(num17);
 //Calling "BigInt" built in object in JavaScript
