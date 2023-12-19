@@ -17,7 +17,7 @@ console.log(num3);  //  Prints 11100000
 //Calculation: 111 * (10**5) = 11100000 | 111 multiplied by 10, to the power of 5 equals to 11100000
 /*------------------*/
 
-//Extra small - ncncnc
+//Extra small -
 let num4 = 5255e-2; //  After the notation, using the operator "-" is requirred
 console.log(num4);  //  Prints 52.55
 
@@ -35,7 +35,7 @@ console.log(x); //Returns 0.30000000000000004
 
 /*------------------*/
 
-// + operator and string - Using + for adding a number with string results a string. It is actually colled concatenation 
+// + operator and string - Using + for adding a number with string results a string. It is actually called concatenation 
 let string = "My lucky numberis ";
 let num6 = 10;
 let result = string + num6;
@@ -55,42 +55,47 @@ console.log(numericValue);  //  prints My favorite number is 255.
 
 /*------------------*/
 
-//NaN - NaN is a keyword indicates that a number is not a legal number.
+//NaN - NaN is a keyword in JavaScript indicates that a number is not a legal number.
 let num9 = 100 / "grpes";
 console.log(num9);  //prints NaN since we are dividing 100 by non numeric/string value
 
 //But if the string is numeric, will result a number
-let num10 = 500 / "50";
-console.log(num10); //  prints 50
+let num10 = 100 / 20;
+console.log(num10); //  prints 5
+
+
 
 /*------------------*/
 
 //isNaN - This is a global function in JavaScript used to findout if a value is not a number. It returns true and false.
-let num11 = 100;
-console.log(isNaN(num11));          //  returns false
+let num11 = 620;
+console.log(isNaN(num11));
 
-let stringValue = "JavaScript";
-console.log(isNaN(stringValue));    //  returns true because the value assigned to the variable is not a number
+
+let stringValue = "JavaScript is an object oriented programming language";
+console.log(isNaN(stringValue));     //  returns true because the value assigned to the variable whih is not a number
+
 
 /*------------------*/
 
 //  NaN itself is a number and typeof NaN returns number
-
-typeof NaN;         //Returns number
+console.log(typeof NaN);         //Returns number
 
 /*------------------*/
 
-//Infinity - The infinity will return if a number a number is calculated outside the largest number as follows:
-let LargestNumber = 10;
-while (LargestNumber != Infinity)           //  Infinity is keyword in JavaScript
+//Infinity - The infinity is a value in JavaScript which is returned if a number is calculated outside the largest number as follows:
+let infin1 = 100;
+while (infin1 != Infinity)  //  Infinity is keyword in JavaScript
 {
-    LargestNumber = LargestNumber * LargestNumber;
-    }
-console.log(LargestNumber); //returns infinity
+    infin1 = infin1 * infin1;
+}
+console.log(infin1);    //returns infinity
+
 
 //Division by 0 also returns infinity
 let division = 100 / 0;
 console.log(division);
+
 // type of infinity is number
 console.log(typeof Infinity);   //returns infinity
 
@@ -101,6 +106,7 @@ let hexa = 0xff;    //  hexa value
 console.log(hexa);  //  prints 255
 //  Another example
 console.log(0x6a);
+//  It is good idea not to start number in JavaScript starting with 0, like 09
 
 /*------------------*/
 
@@ -112,9 +118,9 @@ console.log(num12.toString(2)); //  prints binary equavelincy 111001
 /*------------------*/
 
 //Equality ==
-let num13 = 10;         //  Numeric value
-let num14 = "10";       //  Numeric value in string
-console.log(num13 == num14);    //Returns true
+let num13 = 56;         //  Numeric value
+let num14 = "56";       //  Numeric value in string
+console.log(num13 == num14);    //Returns true because both values are equal
 
 /*------------------*/
 
@@ -122,6 +128,8 @@ console.log(num13 == num14);    //Returns true
 let num15 = 20;     //  Numeric value
 let num16 = "20";   //  Numeric value in string
 console.log(num15 === num16);   //Returns false
+
+
 
 /*------------------*/
 // The largest number that JavaScript can reliably represent with the Number primitive is 253-1, the number beyond that is used with BigInt object
@@ -136,34 +144,6 @@ console.log(num18);
 let type = BigInt(123456789100200300)
 console.log(typeof type);
 
-/*------------------*/
-
-/*BigInt is the second numeric data type of number in JavaScript
-With BigInt, the total data types in JavaScript are 8:
-1.  Number
-2.  BigInt
-3.  string
-4.  Object
-5.  Boolean
-6.  Undefined
-7.  Null
-8.  Symbol
-*/
-//                  Aritmathic between BigInt and a number is not allowed, because type conversion lose information
-//                                  let num19 = 100;    //  Number variable
-//                                  let num20 = BigInt(8009001000200030004000);     //  BigInt Value
-//                                  console.log(num19 + num20); //  throws TypeError
-
-
-//                  BigInt Decimals - Using Decimal or point with BigInt is not allowed
-//                                  let num21 = BigInt(900800.765);      //  Decimal is used with BigInt
-//                                  console.log(num21);     // throws RangError
-
-/*------------------*/
-
-//  BigInt can be used with Hexadecimal, octal and binary notation
-let num22 = 0b100000000000000000000000000000000000000000000000000011n;  //  Binary
-console.log(num22); //  Returns 9007199254740995n
 
 
 

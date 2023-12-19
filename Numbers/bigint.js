@@ -22,13 +22,38 @@ let y = 20;
 console.log("The result is: " + x + y);
 
 
+/*
+Math operstors in JavaScript are as follows:
++
+-
+*
+/
+% 
+*/
+console.log(10/5);
 
 
+// + operator
+let plus1 = 10;
+let plus2 = 10;
+console.log(plus1 + plus2);
 
 
+// - operator
+let minus1 = 20;
+let minus2 = 15;
+console.log(minus1 - minus2);
 
 
+//  % operator  - This operator returns the remainder
+let num2 = 30;
+let num3 = 9;
+console.log(num2 % num3);
 
+//  / operator
+let num4 = 500;
+let num5 = 10;
+console.log(num4 / num5);
 
 
 
@@ -79,14 +104,6 @@ console.log(num22); //  Returns 9007199254740995n
 
 /*------------------*/
 
-//  Minimum and maximum safe integer
-let num23 = Number.MAX_SAFE_INTEGER;        //  Returns the maximum safe integer in JavaScript
-console.log(num23);         //  Returns the maximum safe integer 9007199254740991
-
-let num24 = Number.MIN_SAFE_INTEGER;        //  Returns the minimum safe integer in JavaScript
-console.log(num24);         //  Returns the minmum safe integer -9007199254740991
-
-/*------------------*/
 
 /*  Number.isInteger - it is used to see if a value is intger
 */
