@@ -5,20 +5,9 @@
         function reuseableFunction() {
             console.log("Hameedullah", "Asadi", 29, "Kabul", "Afghanistan");
         }
-        //  Everything inside the [] is ran whenever the function is called
-        reuseableFunction();    //  Here we called the function
-
-
-        //  This is the second function
-        function reuseableFunction2() {
-            console.log("Hi Manizha");
-        }
-reuseableFunction2();
+        //  Everything inside the {} is ran whenever the function is called
+reuseableFunction();    //  Here we called the function
         
-
-
-/*------------------------*/
-
 
 
         //  Passing Values to Function With Arguments
@@ -27,12 +16,10 @@ reuseableFunction2();
         {
             console.log("Hello " + name + " " + lastName + ".");    //  concatenation
         }
-        person("Hameedullah", "Asadi"); //  These are the values or arguments of the parmeters inside the function above
+person("Hameedullah", "Asadi"); //  These are the values or arguments of the parmeters inside the function above
         
 
-
 /*------------------------*/
-
 
 
         //  Second function
@@ -45,10 +32,7 @@ countries("Japan", "Norway", "Canada");
 
 
    /*------------------------*/
-     
-
-
-
+    
         //  Global Scope and Function - scope in funcction means visibility of the function
         //  GLOBAL SCOPE - Is written outside the function, so is accessible and can be seen everywhere in JavaScript as follows:
         var globalScope = 600;  //  This variable is outside the function so it is global
@@ -61,12 +45,9 @@ countries("Japan", "Norway", "Canada");
             }
                 }
 luckyNumber();
-        
 
 
 /*------------------------*/
-
-        
 
             //  Local Scope and Function - The variable that is declared within function, is called local scope variable
             //  Local scope
